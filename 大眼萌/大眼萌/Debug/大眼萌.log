@@ -1,0 +1,15 @@
+﻿生成启动时间为 2022/7/30 20:48:17。
+     1>项目“C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\大眼萌\大眼萌.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+     1>c:\users\zyf\desktop\编程学习\github\c-code\大眼萌\大眼萌\源.c(8): warning C4047: “函数”:“int”与“char [2]”的间接级别不同
+     1>c:\users\zyf\desktop\编程学习\github\c-code\大眼萌\大眼萌\源.c(8): warning C4024: “putchar”: 形参和实参 1 的类型不同
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\Debug\大眼萌.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\Debug\大眼萌.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\Debug\大眼萌.lib" /MACHINE:X86 "Debug\源.obj"
+         大眼萌.vcxproj -> C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\Debug\大眼萌.exe
+     1>已完成生成项目“C:\Users\ZYF\Desktop\编程学习\github\c-code\大眼萌\大眼萌\大眼萌.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.37
