@@ -1,20 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-void park();
+int park();
 
 int main()
 {
 	for (int x = 1; x <= 5; x++)
 	{
-		park();
+		printf("剩余车位%d\n", park());
 	}
 	return 0;
 }
-
-void park()
+int park()
 {
-	static int count = 5;
-	count=count-1;
-	printf("剩余车位：%d\n", count);
-	return 0;
+	static int num = 1250;
+	num=num-1;
+	return num;
 }

@@ -1,13 +1,12 @@
-﻿生成启动时间为 2022/7/27 23:28:17。
-     1>项目“C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\试错.c\试错.c.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2022/7/30 15:34:54。
+     1>项目“C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\试错.c\试错.c.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 01.c
          01.c
-     1>c:\users\zyf\documents\visual studio 2013\projects\试错.c\试错.c\01.c(19): warning C4098: “park”:“void”函数返回值
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\Debug\试错.c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\Debug\试错.c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\Debug\试错.c.lib" /MACHINE:X86 Debug\01.obj
-         试错.c.vcxproj -> C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\Debug\试错.c.exe
-     1>已完成生成项目“C:\Users\ZYF\documents\visual studio 2013\Projects\试错.c\试错.c\试错.c.vcxproj”(Build 个目标)的操作。
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\Debug\试错.c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\Debug\试错.c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\Debug\试错.c.lib" /MACHINE:X86 Debug\01.obj
+         试错.c.vcxproj -> C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\Debug\试错.c.exe
+     1>已完成生成项目“C:\Users\ZYF\Documents\Visual Studio 2013\Projects\试错.c\试错.c\试错.c.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
