@@ -1,8 +1,2 @@
-﻿  game.c
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(125): warning C4047: “初始化”:“int *”与“int **”的间接级别不同
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(133): warning C4047: “函数”:“int *”与“int **”的间接级别不同
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(133): warning C4024: “iswin”: 形参和实参 4 的类型不同
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(142): warning C4047: “函数”:“int *”与“int **”的间接级别不同
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(142): warning C4024: “iswin”: 形参和实参 4 的类型不同
-c:\users\zyf\desktop\编程学习\github\c-code\chess\chess\game.c(121): warning C4715: “iswin”: 不是所有的控件路径都返回值
+﻿  test.c
   chess.vcxproj -> C:\Users\ZYF\Desktop\编程学习\github\c-code\chess\Debug\chess.exe
