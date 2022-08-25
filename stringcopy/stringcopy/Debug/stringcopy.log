@@ -1,0 +1,6 @@
+﻿  源.c
+c:\users\zyf\desktop\编程学习\github\c-code\stringcopy\stringcopy\源.c(20): warning C4047: “函数”:“char *”与“char (*)[18]”的间接级别不同
+c:\users\zyf\desktop\编程学习\github\c-code\stringcopy\stringcopy\源.c(20): warning C4024: “my_strcopy”: 形参和实参 1 的类型不同
+c:\users\zyf\desktop\编程学习\github\c-code\stringcopy\stringcopy\源.c(20): warning C4047: “函数”:“char *”与“char (*)[4]”的间接级别不同
+c:\users\zyf\desktop\编程学习\github\c-code\stringcopy\stringcopy\源.c(20): warning C4024: “my_strcopy”: 形参和实参 2 的类型不同
+  stringcopy.vcxproj -> C:\Users\ZYF\Desktop\编程学习\github\c-code\stringcopy\Debug\stringcopy.exe
