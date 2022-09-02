@@ -1,0 +1,5 @@
+﻿  arr.c
+c:\users\zyf\desktop\pointer_pass_para\pointer_pass_para\arr.c(21): warning C4047: “初始化”:“int (*)[]”与“int *”的间接级别不同
+c:\users\zyf\desktop\pointer_pass_para\pointer_pass_para\arr.c(17): warning C4716: “arrorder1”: 必须返回一个值
+c:\users\zyf\desktop\pointer_pass_para\pointer_pass_para\arr.c(26): warning C4716: “arrorder2”: 必须返回一个值
+  pointer_pass_para.vcxproj -> C:\Users\ZYF\Desktop\pointer_pass_para\Debug\pointer_pass_para.exe
