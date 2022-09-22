@@ -1,19 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-#include"con.h"
+#include"contact.h"
 
 int main(){
-	struct person con;
-	init(&con);
 	enum input
 	{
 		ad=1,
-		de=2,
-		se=3,
-		ch=4,
-		sh=5,
+		de,
+		se,
+		ch,
+		sh,
 	};
-	int input;
+	 int input;
+	struct person con;
+	init(&con);
 	do{
 		menu();
 		printf("请选择：");
@@ -21,7 +21,7 @@ int main(){
 		switch (input) 
 		{
 		case 6:
-			printf("退出成功！");
+			printf("退出成功！\n");
 			break;
 		case ad:
 			add(&con);

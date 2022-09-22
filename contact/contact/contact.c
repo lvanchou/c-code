@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include"con.h"
+#include"contact.h"
 
 void init(struct person*ps){
 	memset(ps->data, 0, sizeof(ps->data));
@@ -38,7 +38,8 @@ void add(struct person*ps){
 }
 
 void show(struct person*ps){
-	for (int x = 0; x < ps->space;x++){
+	int x;
+	for (x = 0; x < ps->space;x++){
 		printf("%d.姓名：%s\n",x+1,ps->data[x].name);
 		printf("电话号码：%s\n\n",ps->data[x].tel);
 	}
@@ -46,15 +47,17 @@ void show(struct person*ps){
 
 void del(struct person*ps){
 	char name[30];
+	int x;;
 	printf("请输入要删除的联系人名字：");
 	scanf("%s",&name);
-	for (int x = 0; x < ps->space;x++)
+	for (x = 0; x < ps->space;x++)
 	{
 		int com;
 		com = strcmp(ps->data[x].name, name);
 			if (com==0)
 			{
-				for (int y = x; y < ps->space; y++)
+				int y;
+				for (y = x; y < ps->space; y++)
 				{
 					ps->data[y] = ps->data[y + 1];
 					ps->space--;
@@ -71,9 +74,10 @@ void del(struct person*ps){
 
 void search(struct person*ps){
 	char name[30];
+	int x;
 	printf("请输入要搜索的联系人名字：");
 	scanf("%s", &name);
-	for (int x = 0; x < ps->space; x++)
+	for (x = 0; x < ps->space; x++)
 	{
 		int com;
 		com = strcmp(ps->data[x].name, name);
@@ -97,9 +101,11 @@ void search(struct person*ps){
 
 void change(struct person*ps){
 	char name[30];
+	int x;
+	int input;
 	printf("请输入要修改的联系人名字：");
 	scanf("%s", &name);
-	for (int x = 0; x < ps->space; x++)
+	for ( x = 0; x < ps->space; x++)
 	{
 		int com;
 		com = strcmp(ps->data[x].name, name);
@@ -111,7 +117,6 @@ void change(struct person*ps){
 				ps->data[x].age,
 				ps->data[x].tel,
 				ps->data[x].addr);
-			int input;
 			printf("您要修改的是：1.姓名 2.性别 3.年龄 4.电话号码 5.住址");
 			scanf("%d", &input);
 			if (input==1&&2&&3&&4&&5){

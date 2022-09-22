@@ -1,0 +1,5 @@
+﻿  P709.C
+c:\users\zyf\desktop\c语言作业\degree\p709.c(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+c:\users\zyf\desktop\c语言作业\degree\p709.c(7): warning C4700: 使用了未初始化的局部变量“F”
+  P709.vcxproj -> C:\Users\ZYF\Desktop\c语言作业\degree\.\Debug\P709.exe

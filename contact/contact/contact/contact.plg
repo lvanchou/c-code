@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: contact - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZYF\AppData\Local\Temp\RSPDF05.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/contact.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\ZYF\Desktop\±à³ÌÑ§Ï°\github\c-code\contact\contact\main.c"
+]
+Creating command line "cl.exe @C:\Users\ZYF\AppData\Local\Temp\RSPDF05.tmp" 
+Creating temporary file "C:\Users\ZYF\AppData\Local\Temp\RSPDF06.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/contact.pdb" /debug /machine:I386 /out:"Debug/contact.exe" /pdbtype:sept 
+".\Debug\contact.obj"
+".\Debug\main.obj"
+".\Debug\test.obj"
+]
+Creating command line "link.exe @C:\Users\ZYF\AppData\Local\Temp\RSPDF06.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+Linking...
+test.obj : error LNK2005: _main already defined in main.obj
+Debug/contact.exe : fatal error LNK1169: one or more multiply defined symbols found
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+contact.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿  LINK : 没有找到 .\Debug\asci2.exe 或上一个增量链接没有生成它；正在执行完全链接
+P134.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+P134.obj : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+LINK : fatal error LNK1104: 无法打开文件“LIBCD.lib”

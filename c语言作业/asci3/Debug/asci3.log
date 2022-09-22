@@ -1,0 +1,6 @@
+﻿  P134.C
+c:\users\zyf\desktop\c语言作业\asci3\p134.c(29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+LINK : warning LNK4076: 增量状态文件“.\Debug\asci3.ilk”无效(将删除)；正以非增量方式链接
+P134.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+  asci3.vcxproj -> C:\Users\ZYF\Desktop\c语言作业\asci3\.\Debug\asci3.exe
