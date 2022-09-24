@@ -2,20 +2,20 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{ff63771a-e082-46d2-96dc-53546e848e4f}</UniqueIdentifier>
+      <UniqueIdentifier>{74262ea5-ca76-4781-ae41-6f965dc0dc50}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{9f353b6c-bdc1-4a4a-b7d2-9eb5be05cdcd}</UniqueIdentifier>
+      <UniqueIdentifier>{037401df-cba1-480e-a279-2b05b2497786}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{a07edc98-17c8-4926-aed8-313f5b6e9829}</UniqueIdentifier>
+      <UniqueIdentifier>{b4e91548-57bb-4a7d-a61c-55e02be01755}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P133.C">
+    <ClCompile Include="test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
